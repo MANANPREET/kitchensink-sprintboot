@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de6fe88a-2039-4863-a6c2-f7685fbbc643" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2oz94n77iVqizB8XYsqNVbvEvS6" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/mananps/Downloads/kitchensink-springboot_scratch/src/main/resources/static/css",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "55c9c34d8c66e52ad8dbd60a73bf713a"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/css" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserRepositoryTest">
+    <configuration name="MemberRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kitchensink-springboot_scratch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.kitchensink.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.kitchensink.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kitchensink.repository.MemberRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoleRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kitchensink-springboot_scratch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.kitchensink.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.kitchensink.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kitchensink.repository.RoleRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kitchensink-springboot_scratch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.kitchensink.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.kitchensink.model" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kitchensink.model.RoleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserEntityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kitchensink-springboot_scratch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.kitchensink.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.kitchensink.model" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kitchensink.model.UserEntityTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kitchensink-springboot_scratch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.kitchensink.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.kitchensink.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kitchensink.repository.UserRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KitchensinkApplication" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="deploy" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="KitchensinkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kitchensink-springboot_scratch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.kitchensink.KitchensinkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="kitchensink-springboot_scratch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.kitchensink.KitchensinkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="kitchensink-springboot_scratch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.kitchensink.WebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MemberRepositoryTest" />
+      <item itemvalue="JUnit.RoleRepositoryTest" />
+      <item itemvalue="JUnit.RoleTest" />
+      <item itemvalue="JUnit.UserEntityTest" />
+      <item itemvalue="JUnit.UserRepositoryTest" />
+      <item itemvalue="Maven.KitchensinkApplication" />
+      <item itemvalue="Spring Boot.KitchensinkApplication" />
+      <item itemvalue="Spring Boot.WebApplication" />
+      <item itemvalue="Spring Boot.MyApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserRepositoryTest" />
+        <item itemvalue="JUnit.RoleRepositoryTest" />
+        <item itemvalue="JUnit.MemberRepositoryTest" />
+        <item itemvalue="JUnit.UserEntityTest" />
+        <item itemvalue="JUnit.RoleTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de6fe88a-2039-4863-a6c2-f7685fbbc643" name="Changes" comment="" />
+      <created>1731861354072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731861354072</updated>
+      <workItem from="1731861359832" duration="54188000" />
+      <workItem from="1732616990140" duration="5772000" />
+      <workItem from="1732789751618" duration="2799000" />
+      <workItem from="1732971364757" duration="38867000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,11 @@
+/Users/mananps/Downloads/kitchensink-springboot/src/test/java/com/example/kitchensink/controller/ApiControllerTest.java
+/Users/mananps/Downloads/kitchensink-springboot/src/test/java/com/example/kitchensink/controller/AuthControllerTest.java
+/Users/mananps/Downloads/kitchensink-springboot/src/test/java/com/example/kitchensink/controller/UserControllerTest.java
+/Users/mananps/Downloads/kitchensink-springboot/src/test/java/com/example/kitchensink/dto/DtoTests.java
+/Users/mananps/Downloads/kitchensink-springboot/src/test/java/com/example/kitchensink/exception/GlobalExceptionHandlerTest.java
+/Users/mananps/Downloads/kitchensink-springboot/src/test/java/com/example/kitchensink/exception/ResourceNotFoundExceptionTest.java
+/Users/mananps/Downloads/kitchensink-springboot/src/test/java/com/example/kitchensink/repository/RoleRepositoryTest.java
+/Users/mananps/Downloads/kitchensink-springboot/src/test/java/com/example/kitchensink/repository/UserEntityRepositoryTest.java
+/Users/mananps/Downloads/kitchensink-springboot/src/test/java/com/example/kitchensink/repository/UserRepositoryTest.java
+/Users/mananps/Downloads/kitchensink-springboot/src/test/java/com/example/kitchensink/security/CustomUserDetailsServiceTest.java
+/Users/mananps/Downloads/kitchensink-springboot/src/test/java/com/example/kitchensink/security/JwtAuthEntryPointTest.java

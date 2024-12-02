@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html
+        xmlns:th="http://thymeleaf.org"
+        xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+        layout:decorate="~{layout}">
+<head>
+  <title>User List</title>
+  <link th:href = "@{/css/bootstrap.min.css}" rel="stylesheet">
+  <script src="jquery.js"></script>
+</head>
+<section layout:fragment="body">
+  <style>
+    .main {
+      padding: 0px 10px;
+    }
+
+    @media screen and (max-width: 450px) {
+      .login-form{
+        margin-top: 10%;
+      }
+      .register-form{
+        margin-top: 10%;
+      }
+    }
+    @media screen and (min-width: 768px){
+      .main{
+        margin-left: 30%;
+      }
+
+      .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+      }
+    }
+  </style>
+<div class="container align-items-center py-5 bg-light">
+    <div th:if="${param.login}" class="alert alert-success">
+        You are logged in successfully!
+    </div>
+  <div class="row align-items-center">
+    <h1 class="align-items-center text-center">Member List</h1>
+
+
+
+    <div class="col-sm">
+    </div>
+    <div class="col-sm">
+      <div class="span12" style="text-align:center">
+<!--        <a class="btn btn-primary" href="/members/new">Create New Member</a>-->
+      </div>
+      <ul class="list-group">
+        <li class="list-group-item" th:each="member : ${members}">
+          <a th:href="@{/members/{id}(id=${member.id})}" th:text="${member.name}">User Name</a>
+          <span class="container" th:if="${roleName} == 'ADMIN'">
+<!--            <a class="btn btn-primary" th:href="@{/clubs/{clubId}/edit(clubId=${club.id})}">Edit</a>-->
+                <a class="btn btn-danger mr-2" style="float: right;" th:href="@{/members/{id}/delete(id=${member.id})}">Delete</a>
+                <a class="btn btn-warning mr-2" style="float: right;" th:href="@{/members/{id}/edit(id=${member.id})}">Edit</a>
+          </span>
+        </li>
+      </ul>
+        <div class="span12 m-auto" style="text-align:center">
+                   <a class="btn btn-primary m-auto" href="/members/new">Create More Members..</a>
+        </div>
+    </div>
+    <div class="col-sm">
+    </div>
+  </div>
+</div>
+</section>
+</html>

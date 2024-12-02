@@ -1,0 +1,39 @@
+<html
+        xmlns:th="http://thymeleaf.org"
+        xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+        layout:decorate="~{layout}">
+<head>
+  <title>Error</title>
+</head>
+<section layout:fragment="body">
+  <style>
+    .main {
+      padding: 0px 10px;
+    }
+
+    @media screen and (max-width: 450px) {
+      .login-form{
+        margin-top: 10%;
+      }
+      .register-form{
+        margin-top: 10%;
+      }
+    }
+    @media screen and (min-width: 768px){
+      .main{
+        margin-left: 30%;
+      }
+
+      .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+      }
+    }
+  </style>
+<h1>An error occurred!</h1>
+<p>We apologize for the inconvenience.</p>
+</section>
+</html>
