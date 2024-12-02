@@ -4,27 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de6fe88a-2039-4863-a6c2-f7685fbbc643" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/kitchensink/WebApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/kitchensink/security/CustomUserDetailsServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/kitchensink/security/SecurityConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/kitchensink/security/SecurityUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/kitchensink/service/impl/MemberServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/kitchensink/service/impl/UserServiceImplTest.java" afterDir="false" />
+    <list default="true" id="de6fe88a-2039-4863-a6c2-f7685fbbc643" name="Changes" comment="Added more unit tests and made minor changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/WebApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/model/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/model/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/service/impl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/service/impl/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kitchensink/model/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kitchensink/model/UserEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kitchensink/security/CustomUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kitchensink/security/CustomUserDetailsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kitchensink/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kitchensink/security/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kitchensink/security/SecurityUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kitchensink/security/SecurityUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kitchensink/service/impl/MemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kitchensink/service/impl/MemberServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kitchensink/WebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kitchensink/WebApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/kitchensink/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kitchensink/service/impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -257,8 +242,16 @@
       <workItem from="1732616990140" duration="5772000" />
       <workItem from="1732789751618" duration="2799000" />
       <workItem from="1732971364757" duration="39752000" />
-      <workItem from="1733131880538" duration="2543000" />
+      <workItem from="1733131880538" duration="3980000" />
     </task>
+    <task id="LOCAL-00001" summary="Added more unit tests and made minor changes">
+      <created>1733134520106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733134520107</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +267,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added more unit tests and made minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more unit tests and made minor changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

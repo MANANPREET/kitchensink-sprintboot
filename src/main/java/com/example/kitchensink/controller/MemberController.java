@@ -20,7 +20,6 @@ public class MemberController {
 
     @GetMapping
     public String listMembers(Model model) {
-        System.out.println("ListMembers");
         UserEntity user = new UserEntity();
         String roleName = "";
         String username = SecurityUtil.getSessionUser();
@@ -46,7 +45,6 @@ public class MemberController {
             user = userService.findByUsername(username);
             roleName = user.getRoles().get(0).getName();
         }
-        System.out.println("User : "+ user.getRoles().get(0).getName());
         model.addAttribute("roleName", roleName);
         model.addAttribute("members", memberService.getAllUsers());
         return "index";
