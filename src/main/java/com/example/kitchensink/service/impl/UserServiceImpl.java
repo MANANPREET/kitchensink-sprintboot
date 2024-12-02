@@ -12,12 +12,23 @@ import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
 
+/**
+ * Implementation of the UserService interface, handling user-related operations.
+ */
 @Service
 public class UserServiceImpl implements UserService {
+
     private UserRepository userRepository;
     private RoleRepository roleRepository;
     private PasswordEncoder passwordEncoder;
 
+    /**
+     * Constructor to initialize dependencies for the UserServiceImpl class.
+     *
+     * @param userRepository The repository for UserEntity.
+     * @param roleRepository The repository for Role.
+     * @param passwordEncoder The password encoder for hashing passwords.
+     */
     @Autowired
     public UserServiceImpl(UserRepository userRepository, RoleRepository roleRepository, PasswordEncoder passwordEncoder) {
         this.userRepository = userRepository;
@@ -31,8 +42,11 @@ public class UserServiceImpl implements UserService {
         user.setUsername(registrationDto.getUsername());
         user.setEmail(registrationDto.getEmail());
         user.setPassword(passwordEncoder.encode(registrationDto.getPassword()));
-        Role role = roleRepository.findByName("ADMIN");
+
+        // Assigning the role "ADMIN" to the user
+        Role role = roleRepository.findByName("USER");
         user.setRoles(Arrays.asList(role));
+
         userRepository.save(user);
     }
 

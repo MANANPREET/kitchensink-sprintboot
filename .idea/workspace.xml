@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de6fe88a-2039-4863-a6c2-f7685fbbc643" name="Changes" comment="" />
+    <list default="true" id="de6fe88a-2039-4863-a6c2-f7685fbbc643" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/kitchensink/WebApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/kitchensink/security/CustomUserDetailsServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/kitchensink/security/SecurityConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/kitchensink/security/SecurityUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/kitchensink/service/impl/MemberServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/kitchensink/service/impl/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/WebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/model/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/model/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/service/impl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/service/impl/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kitchensink/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kitchensink/model/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kitchensink/model/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kitchensink/security/CustomUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kitchensink/security/CustomUserDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kitchensink/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kitchensink/security/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kitchensink/security/SecurityUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kitchensink/security/SecurityUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kitchensink/service/impl/MemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kitchensink/service/impl/MemberServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kitchensink/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kitchensink/service/impl/UserServiceImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +47,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -39,6 +64,7 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2oz94n77iVqizB8XYsqNVbvEvS6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -53,6 +79,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/mananps/Downloads/kitchensink-springboot_scratch/src/main/resources/static/css",
     "list.type.of.created.stylesheet": "CSS",
@@ -61,7 +88,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "spring.configuration.checksum": "55c9c34d8c66e52ad8dbd60a73bf713a"
+    "spring.configuration.checksum": "285075bf9751646f9d6c1b11a8ed89d3"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -70,77 +97,78 @@
       <recent name="$PROJECT_DIR$/src/main/resources/static/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserRepositoryTest">
-    <configuration name="MemberRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.WebApplication">
+    <configuration name="MemberServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kitchensink-springboot_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.kitchensink.repository.*" />
+          <option name="PATTERN" value="com.example.kitchensink.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.kitchensink.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.example.kitchensink.repository.MemberRepositoryTest" />
+      <option name="PACKAGE_NAME" value="com.example.kitchensink.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kitchensink.service.impl.MemberServiceImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoleRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SecurityConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kitchensink-springboot_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.kitchensink.repository.*" />
+          <option name="PATTERN" value="com.example.kitchensink.security.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.kitchensink.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.example.kitchensink.repository.RoleRepositoryTest" />
+      <option name="PACKAGE_NAME" value="com.example.kitchensink.security" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kitchensink.security.SecurityConfigTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SecurityConfigTest.testPasswordEncoder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kitchensink-springboot_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.kitchensink.model.*" />
+          <option name="PATTERN" value="com.example.kitchensink.security.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.kitchensink.model" />
-      <option name="MAIN_CLASS_NAME" value="com.example.kitchensink.model.RoleTest" />
+      <option name="PACKAGE_NAME" value="com.example.kitchensink.security" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kitchensink.security.SecurityConfigTest" />
+      <option name="METHOD_NAME" value="testPasswordEncoder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kitchensink-springboot_scratch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.kitchensink.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.kitchensink.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kitchensink.service.impl.UserServiceImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserEntityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kitchensink-springboot_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.kitchensink.model.*" />
+          <option name="PATTERN" value="com.example.kitchensink.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.kitchensink.model" />
-      <option name="MAIN_CLASS_NAME" value="com.example.kitchensink.model.UserEntityTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kitchensink-springboot_scratch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.kitchensink.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.kitchensink.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.example.kitchensink.repository.UserRepositoryTest" />
+      <option name="PACKAGE_NAME" value="com.example.kitchensink" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kitchensink.WebApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -197,11 +225,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MemberRepositoryTest" />
-      <item itemvalue="JUnit.RoleRepositoryTest" />
-      <item itemvalue="JUnit.RoleTest" />
-      <item itemvalue="JUnit.UserEntityTest" />
-      <item itemvalue="JUnit.UserRepositoryTest" />
+      <item itemvalue="JUnit.MemberServiceImplTest" />
+      <item itemvalue="JUnit.SecurityConfigTest" />
+      <item itemvalue="JUnit.SecurityConfigTest.testPasswordEncoder" />
+      <item itemvalue="JUnit.UserServiceImplTest" />
+      <item itemvalue="JUnit.WebApplicationTests" />
       <item itemvalue="Maven.KitchensinkApplication" />
       <item itemvalue="Spring Boot.KitchensinkApplication" />
       <item itemvalue="Spring Boot.WebApplication" />
@@ -209,11 +237,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserRepositoryTest" />
-        <item itemvalue="JUnit.RoleRepositoryTest" />
-        <item itemvalue="JUnit.MemberRepositoryTest" />
-        <item itemvalue="JUnit.UserEntityTest" />
-        <item itemvalue="JUnit.RoleTest" />
+        <item itemvalue="JUnit.WebApplicationTests" />
+        <item itemvalue="JUnit.MemberServiceImplTest" />
+        <item itemvalue="JUnit.UserServiceImplTest" />
+        <item itemvalue="JUnit.SecurityConfigTest.testPasswordEncoder" />
+        <item itemvalue="JUnit.SecurityConfigTest" />
       </list>
     </recent_temporary>
   </component>
@@ -228,12 +256,24 @@
       <workItem from="1731861359832" duration="54188000" />
       <workItem from="1732616990140" duration="5772000" />
       <workItem from="1732789751618" duration="2799000" />
-      <workItem from="1732971364757" duration="38867000" />
+      <workItem from="1732971364757" duration="39752000" />
+      <workItem from="1733131880538" duration="2543000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

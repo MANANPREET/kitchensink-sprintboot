@@ -1,9 +1,6 @@
 package com.example.kitchensink.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -18,8 +15,7 @@ import java.util.List;
  * as well as a list of roles (`roles`) that are referenced using MongoDB's `@DBRef` annotation.
  * The Lombok annotations generate boilerplate code such as getters, setters, constructors, and `toString` method.
  */
-@Getter  // Lombok annotation to generate getters for all fields
-@Setter  // Lombok annotation to generate setters for all fields
+@Data   // Lombok annotation to generate getters, setters, equals, hashCode, and toString methods
 @NoArgsConstructor  // Lombok annotation to generate a no-args constructor
 @AllArgsConstructor  // Lombok annotation to generate an all-args constructor
 @Document(collection = "users")  // MongoDB collection mapping for the UserEntity object
